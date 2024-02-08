@@ -34,8 +34,7 @@ given an icon, but `Macos.iso` would not.
 ## How did I make this?
 
 - Docs
-    - [Ventoy docs](https://www.ventoy.net/en/plugin_theme.html)  
-        - `VTOY_DEFAULT_SEARCH_ROOT` to increase organization
+    - [Ventoy docs](https://www.ventoy.net/en/plugin_entry.html)  
         - `resolution_fit = 1` and `default_file = 0` will
           pattern-match the current monitor resolution when selecting
           `theme.txt`. For example, for 1920x1080:

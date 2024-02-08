@@ -1,6 +1,8 @@
 {
     "control": [
-        {"VTOY_DEFAULT_SEARCH_ROOT": "/iso"}
+        {"VTOY_DEFAULT_SEARCH_ROOT": "/iso"},
+	    {"VTOY_DEFAULT_MENU_MODE": "1"},
+        {"VTOY_TREE_VIEW_MENU_STYLE": "1"}
     ],
     "theme":{
         "file":[
@@ -49,7 +51,11 @@
         },
         {
             "key": "Arch",
-            "class": "archlinux"
+            "class": "arch"
+        },
+        {
+            "key": "Archcraft",
+            "class": "archcraft"
         },
         {
             "key": "Artix",
@@ -60,8 +66,8 @@
             "class": "chakra"
         },
         {
-            "key": "Clone",
-            "class": "clonezilla"
+            "key": "CentOS",
+            "class": "centos"
         },
         {
             "key": "Debian",
@@ -176,6 +182,10 @@
             "class": "neon"
         },
         {
+            "key": "NixOS",
+            "class": "nixos"
+        },
+        {
             "key": "OpenSUSE",
             "class": "opensuse"
         },
@@ -185,7 +195,7 @@
         },
         {
             "key": "Pop-OS",
-            "class": "pop-os"
+            "class": "pop"
         },
         {
             "key": "recovery",
